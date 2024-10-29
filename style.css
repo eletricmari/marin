@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+:root {
+    --bg-color: #64eb0a;
+    --primary-color:#0054f0;
+    --secundary-color:#5eaff1;
+    --font: "Danfo", sans-serif;
+}
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: (var(--primary-color));
+    text-align: center;
+}
+h1{
+ font-size: 2rem;
+ color: var(--bg-color);
+ font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
